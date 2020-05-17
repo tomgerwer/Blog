@@ -111,12 +111,12 @@ a:active {
 
 .fab {
   font-size: 3em !important;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .far {
   font-size: 3em !important;
-  padding: 10px 15px;
+  padding: 10px 10px;
 }
 
 .main-nav a:hover {
@@ -129,20 +129,6 @@ a:active {
   display: block;
   text-align: center;
 }
-
-.main-nav a {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    margin-top: 5px;
-    text-align: center;
-    display: block;
-    padding: 10px 25px;
-    font-size: 1.1em;
-    color: #fff;
-    text-transform: uppercase;
-    
-  }
 
 /* Floated Columns ------------------ */
 
@@ -169,17 +155,25 @@ a:active {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
-  .primary-content,
-  .secondary-content {
-    width: 100%;
-    padding: 20px;
-    border-top: none;
-  }
+.main-nav a {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px 25px;
+  font-size: 1.1em;
+  color: #fff;
+  text-transform: uppercase;
+  
+}
 
-  .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;
+@media (max-width: 768px) {
+
+  html {
+    height: 100%;
+    width: 100%;
   }
 
   .title {
@@ -206,12 +200,32 @@ a:active {
     width: 100%;
   }
 
+  .wildlife {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+
   .main-footer {
     padding: 20px 0;
   }
+
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+  }
 }
 
-.main-nav {
-  display: flex;
-  justify-content: center;
+.main-nav a {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+  font-size: 1.1em;
+  color: #fff;
+  text-transform: uppercase;
+  
 }
